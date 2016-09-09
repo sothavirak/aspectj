@@ -1,4 +1,4 @@
-package camelcxf;
+package edu.sample.cxf;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
