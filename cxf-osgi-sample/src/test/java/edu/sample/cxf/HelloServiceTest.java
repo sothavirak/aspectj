@@ -37,7 +37,7 @@ public class HelloServiceTest extends CamelBlueprintTestSupport {
 		super.tearDown();
 	}
 	
-	//@Test 
+	@Test 
 	public void testSaySomething() {
 		try {
 			Response response = client.path("/retail/hello/say").get();
