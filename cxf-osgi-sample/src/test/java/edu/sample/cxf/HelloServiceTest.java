@@ -12,6 +12,8 @@ import org.junit.Test;
 public class HelloServiceTest extends CamelBlueprintTestSupport {
 	WebClient client = null;
 	
+	private HelloService helloService = new HelloService();
+	
 	@Before
 	public void setUp() throws Exception {
 		super.setUp();
@@ -37,7 +39,7 @@ public class HelloServiceTest extends CamelBlueprintTestSupport {
 		super.tearDown();
 	}
 	
-	@Test 
+	//@Test 
 	public void testSaySomething() {
 		try {
 			Response response = client.path("/retail/hello/say").get();
@@ -46,5 +48,11 @@ public class HelloServiceTest extends CamelBlueprintTestSupport {
     	} catch(Exception e) {
     		e.printStackTrace();
 		}
+	}
+	
+	@Test
+	public void testSay() {
+		String message = "hello";
+		assertEquals(message, helloService.saySomething(message));
 	}
 }
