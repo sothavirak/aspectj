@@ -3,10 +3,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>aspectj</artifactId>
+	<artifactId>aspectj-sample</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>aspectj</name>
+	<name>aspectj-sample</name>
 
 	<parent>
 		<groupId>edu.sample</groupId>

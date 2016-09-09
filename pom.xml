@@ -76,5 +76,17 @@
 			</plugin>			
 		</plugins>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>aspectj-sample</module>				
+			</modules> 
+		</profile>
+	</profiles>
 		
 </project>
