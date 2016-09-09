@@ -1,0 +1,1 @@
+https://travis-ci.org/sothavirak/samples.svg?branch=master
