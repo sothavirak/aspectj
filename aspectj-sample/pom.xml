@@ -5,8 +5,8 @@
 
 	<artifactId>aspectj-sample</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>aspectj-sample</name>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>${project.artifactId}</name>
 
 	<parent>
 		<groupId>edu.sample</groupId>

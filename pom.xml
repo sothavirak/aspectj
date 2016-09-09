@@ -6,8 +6,8 @@
   <groupId>edu.sample</groupId>
   <artifactId>base-pom</artifactId>
   <packaging>pom</packaging>
-  <version>1.0</version>
-  <name>base-pom</name>
+  <version>1.0.0</version>
+  <name>${project.artifactId}</name>
   
   <url>http://maven.apache.org</url>
   
@@ -84,7 +84,8 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<modules>
-				<module>aspectj-sample</module>				
+				<module>aspectj-sample</module>
+				<module>cxf-osgi-sample</module>				
 			</modules> 
 		</profile>
 	</profiles>
